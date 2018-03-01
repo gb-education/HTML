@@ -54,3 +54,10 @@ body {
 .feedback input[type="text"], .feedback input[type="email"] {
 	height:20px;
 }
+.feedback input[type="submit"] {
+	width: 150px;
+	height:30px;
+	border-radius:10px;
+	font-weight: bold;
+	font-style: italic;
+}
