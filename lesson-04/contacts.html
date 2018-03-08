@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>QuadCopter Pro Shop - Контакты</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="header">
+	<a href="index.html"><img src="img/logo.png" class="logo" alt="Интернет-магазин QuadCopter Pro Shop"></a>
+	<ul id="mainmenu">
+		<li><a href="index.html">Главная</a></li>
+		<li><a href="catalog.html" title="">Каталог</a></li>
+		<li>Контакты</li>
+	</ul>
+</div>
+<div class="container">
+	<h1>Контакты</h1>
+    <h2>Напишите нам</h2>
+	<fieldset>
+		<legend>Обратная связь</legend>
+		<p>* обязательные для заполнения</p>
+		<form action="mail.php" method="POST" class="feedback">
+			<p>
+				<input type="text" name="name" placeholder="* Ваше имя" required>
+			</p>
+			<p>
+				<input type="email" name="email" placeholder="* E-mail адрес" required>
+			</p>
+			<p>
+				<input type="text" name="subject" placeholder="Тема сообщения">
+			</p>
+			<p>
+				<textarea name="message" placeholder="* Текст сообщения" required></textarea>
+			</p>
+			<p>
+				5+7=?<br>
+				<input type="text" name="captcha" placeholder="* Проверочный код" required>
+			</p>
+			<p>
+				<input type="submit" value="Отправить">
+			</p>
+		</form>
+	</fieldset>
+	<h2>Адрес</h2>
+	<ul>
+		<li><strong>Телефон:</strong> +7 (911) 123-45-56</li>
+		<li><strong>Адрес:</strong> г. Москва, Советский пр., д. 47</li>
+		<li><strong>Email:</strong> <a href="mailto:info@quadshop.com">info@quadshop.com</a></li>
+	</ul>
+	<h2>Схема проезда</h2>
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afe4ce21b4a17194cbd79e21710735c540748374f2171d93ff5a2c580b942242e&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=false"></script>
+</div>
+<div id="footer">
+    <p>&copy; Все права защищены.</p>
+</div>
+</body>
+</html>

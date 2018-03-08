@@ -1,0 +1,116 @@
+body {
+	background-color: #f8f8f8;
+	font-family: "Open Sans", sans-serif;
+}
+#header {
+	border-bottom: 1px solid #000;
+}
+#header .logo {
+
+}
+#footer {
+	border-top: 1px solid #000;
+}
+#mainmenu {
+	font-size: 16px;
+	list-style: none;
+	display: inline-block;
+}
+#mainmenu li {
+	display: inline-block;
+	padding: 0 10px;
+}
+#mainmenu a {
+	color: #000;
+}
+#mainmenu a:hover {
+	text-decoration: none;
+	color: #29ABE2;
+}
+.product h1, .product h2 {
+	font-size:18px;
+	color: #000;
+	font-weight:400;
+	background-color: #eaeaea;
+}
+.product h1 {
+	font-size:18px;
+}
+.product h2 {
+	font-size:16px;
+}
+.product_image {
+	border: solid 3px #ccc;
+}
+.product_image:hover {
+	border: 0;
+	margin: 3px;
+}
+.product .short_descr {
+	font-size: 14px;
+	color: #707070;
+	font-style: italic;
+	line-height: 16px;
+}
+.product .param {
+	list-style-image: url('../img/list-style-img.png');
+}
+.product .full_descr {
+	font-size: 16px;
+	color: #484343;
+	line-height: 24px;
+	text-align: left;
+}
+.short_descr p:first-letter , .full_descr p:first-letter {
+	font-size:22px;
+	color: #29ABE2;
+	font-weight: bold;
+}
+.product table, .stillbuy {
+	width: 100%;
+	max-width: 800px;
+	border-collapse: collapse;
+}
+.product table thead tr td, .stillbuy thead td{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: inherit;
+}
+.product table td, .stillbuy td {
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 14px;
+}
+.product table tr:nth-child(2n) {
+	background-color: #eee;
+}
+.product table tbody td:first-child {
+	font-weight: 600;
+}
+.stillbuy thead tr td {
+	height: 30px;
+}
+.feedback input[type="text"], .feedback input[type="email"], textarea {
+	font-size:16px;
+	font-style: italic;
+	width: 300px;
+}
+.feedback input[type="text"], textarea {
+	text-transform: capitalize;
+}
+.feedback input[type="email"]:focus {
+	color: #29ABE2;
+	background-color: #eee;
+}
+.feedback input[type="text"], .feedback input[type="email"] {
+	height:20px;
+}
+.feedback input[type="submit"] {
+	width: 150px;
+	height:30px;
+	border-radius:10px;
+	font-weight: bold;
+	font-style: italic;
+}
