@@ -356,7 +356,7 @@ h1, h2 {
 	font-size: 22px;
 	font-weight: 900;
 	font-style: italic;
-	padding: 50px 0 50px 0;
+	padding: 55px 0 30px 0;
 	text-align: center;
 }
 .insta-feed-text span {
@@ -477,4 +477,11 @@ h1, h2 {
 	background-color: #000;
 	color: #fff;
 	height: 32px;
+}
+.footer-contacts {
+	font-size: 14px;
+}
+.footer-contacts a {
+	color: yellow;
+	text-decoration: underline;
 }
