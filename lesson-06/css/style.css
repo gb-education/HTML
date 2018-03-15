@@ -7,6 +7,9 @@ html, body {
 body {
 	background-color: #f8f8f8;
 	font-family: "Open Sans", sans-serif;
+	background-image: url('../img/header_background.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
 }
 h1 {
 	font-size:18px;
@@ -15,16 +18,24 @@ h2 {
 	font-size:16px;
 }
 .container {
-	width: 960px;
+	width: 1170px;
 	margin: 0 auto;
 }
 #header {
 	border-bottom: 1px solid #000;
-	height: 120px;
-	background-image: url('../img/header_background.jpg');
+	height: 700px;
+	//background-image: url('../img/header_background.jpg');
+	
 }
 #header .logo {
 	margin: 20px 0 0 20px;
+}
+#header .icons {
+	float: right;
+	margin: 46px 61px 0 0;
+	font-size: 18px;
+	letter-spacing: 3px;
+	color: #fff;
 }
 #footer {
 	border-top: 1px solid #000;
