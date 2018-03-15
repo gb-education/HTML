@@ -94,6 +94,9 @@ h1, h2 {
 	text-align: center;
 	text-transform: uppercase;
 }
+.header_offer a:hover {
+	background-color: #333333;
+}
 #content {
 	margin-top: -21px;
 }
@@ -460,6 +463,9 @@ h1, h2 {
 .footer-widget a {
 	color: #fff;
 	text-decoration: none;
+}
+.footer-widget a:hover {
+	text-decoration: underline;
 }
 .footer-widget input {
 	height: 24px;
